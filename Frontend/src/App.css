@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: #FAF0E6;
+  font-family: 'ClashDisplay-Regular', sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100vh;
+  background-color: #FAF0E6;
+}
+
+.bg-blue {
+  height: 100vh;
+  background-color: #FAF0E6;
+}
+
+.container {
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.product-card {
+  margin: 0 10px;
+}
+
+form {
+  width: 100%;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAF0E6;
+  padding: 10px;
+  position: relative;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #FAF0E6;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 700px;
+  padding: 10px;
+  position: relative;
+}
+
+.search-input {
+  border: 2px solid #f1c400;
+  background-color: #FAF0E6;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+  border-radius: 4px;
+  outline: none;
+  flex-grow: 1;
+  min-width: 50px;
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #f1c400;
+  color: black;
+  border: none;
+  padding: 6px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+  min-width: 100px;
+}
+
+.search-button-text {
+  margin-right: 15px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.search-button.disabled {
+  cursor: not-allowed;
+}
+
+.dropdown-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: calc(100% + 10px);
+  width: 70%;
+}
+
+.search-dropdown {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #f1c400;
+  border-radius: 4px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.search-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-dropdown li {
+  padding: 5px 0;
+}
+
+.search-dropdown button {
+  margin-top: 10px;
+}
+
+
